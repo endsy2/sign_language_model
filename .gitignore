@@ -1,0 +1,56 @@
+# Dataset and videos (large files)
+dataset/
+archive/videos/
+
+# Virtual environments
+.venv/
+.venv1/
+.venv3/
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+*.egg
+extrack_key_point.ipynb
+# Jupyter Notebook
+#.ipynb_checkpoints/
+#*.ipynb_checkpoints
+
+# # Model files (large)
+ *.h5
+# *.keras
+ *.pb
+ *.tflite
+ models/
+ *.pkl
+ dataset-20260109T160643Z-1-001.zip
+
+
+# Preprocessed data (large numpy files)
+*.npy
+actions.npy
+X_keypoints.npy
+y_labels.npy
+
+# Logs
+*.log
+logs/
+tensorboard_logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+extracted/
